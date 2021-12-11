@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TES MENGETIK | ID</title>
+    <link rel="stylesheet" href="css/app.css" type="text/css" media="screen" charset="utf-8">
+    <script src="javasript/manifest.js" charset="utf-8"></script>
+    <script src="javasript/vendor.js" charset="utf-8"></script>
+    <style>[v-cloak]{display: none}</style>
+  </head>
+  <body>
+    <div id="app" v-cloak>
+      <nav-bar>
+        <a slot="title" href="C:/Users/Maxima  1514/Desktop/NGETIK-Github/NGETIK-Kalimat/index.html">
+          <font-awesome-icon icon="chevron-left" size="sm"></font-awesome-icon> Kembali
+        </a>
+        <typing-timer slot="right" :time="typing.countDown"></typing-timer>
+      </nav-bar>
+
+      <div class="u-text-center">
+        <h1>Tes Kecepatan Mengetik Indonesia</h1>
+      </div>
+
+      <typing-test
+        :duration="120"
+        @timer-update="$set(typing, 'countDown', $event)"
+        ref="typingInput"
+        mode="natural"
+      >
+Penggunaan teknologi oleh manusia diawali dengan pengubahan sumber daya alam menjadi alat-alat sederhana.
+Penemuan prasejarah tentang kemampuan mengendalikan api telah menaikkan ketersediaan sumber-sumber pangan, sedangkan penciptaan roda telah membantu manusia dalam beperjalanan dan mengendalikan lingkungan mereka.
+Perkembangan teknologi terbaru, termasuk di antaranya mesin cetak, telepon, dan Internet, telah memperkecil hambatan fisik terhadap komunikasi dan memungkinkan manusia untuk berinteraksi secara bebas dalam skala global.
+Tetapi, tidak semua teknologi digunakan untuk tujuan damai. Pengembangan senjata penghancur yang semakin hebat telah berlangsung sepanjang sejarah dari pentungan sampai senjata nuklir.
+      </typing-test>
+
+    </div>
+
+    <script src="javasript/app.js" charset="utf-8"></script>
+  </body>
+</html>

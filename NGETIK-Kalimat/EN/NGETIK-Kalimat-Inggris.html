@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TES MENGETIK | EN</title>
+    <link rel="stylesheet" href="css/app.css" type="text/css" media="screen" charset="utf-8">
+    <script src="javascript/manifest.js" charset="utf-8"></script>
+    <script src="javascript/vendor.js" charset="utf-8"></script>
+    <style>[v-cloak]{display: none}</style>
+  </head>
+  <body>
+    <div id="app" v-cloak>
+      <nav-bar>
+        <a slot="title" href="C:/Users/Maxima  1514/Desktop/NGETIK-Github/NGETIK-Kalimat/index.html">
+          <font-awesome-icon icon="chevron-left" size="sm"></font-awesome-icon> Kembali
+        </a>
+        <typing-timer slot="right" :time="typing.countDown"></typing-timer>
+      </nav-bar>
+
+      <div class="u-text-center">
+        <h1>Tes Kecepatan Mengetik Inggris</h1>
+      </div>
+
+      <typing-test
+        :duration="60"
+        @timer-update="$set(typing, 'countDown', $event)"
+        mode="natural"
+      >
+The history of technology is the history of the invention of tools and techniques and is one of the categories of the history of humanity. Technology can refer to methods ranging from as simple as stone tools to the complex genetic engineering and information technology that has emerged since the 1980s.
+The term technology comes from the Greek word techne, meaning art and craft, and the word logos, meaning word and speech. It was first used to describe applied arts, but it is now used to described advancements and changes which affect the environment around us.
+New knowledge has enabled people to create new things, and conversely, many scientific endeavors are made possible by technologies which assist humans in traveling to places they could not previously reach, and by scientific instruments by which we study nature in more detail than our natural senses allow.
+      </typing-test>
+
+    </div>
+
+    <script src="javascript/app.js" charset="utf-8"></script>
+  </body>
+</html>

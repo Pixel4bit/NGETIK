@@ -1,0 +1,227 @@
+h2 {
+	margin-top:1em;
+	font-size:140%;
+}
+dt {
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	font-style:italic;
+	font-weight:600;
+	color:#666;
+	background:rgba(255, 255, 255, .8);
+	margin-bottom:0.5ex;
+	padding-left:1ex;
+	padding-right:1ex;
+	padding-top:0.5ex;
+	padding-bottom:0.5ex;
+	border-radius:0px;
+	box-shadow:3px 3px 5px rgba(255, 0, 0, .3);
+	letter-spacing:1px;
+}
+dd {
+	text-indent:0;
+	margin:1ex;
+	margin-bottom:1.5em;
+}
+#all-outer {
+	padding-left:3em;
+	padding-right:3em;
+}
+#all-inner {
+	max-width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow:0 0 15px rgba(0, 0, 0, .65);
+	background:#f8f8f0;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	padding-bottom:1em;
+}
+#words, #input {
+	font-size:160%;
+	text-align:center;
+	border:0;
+	background:transparent
+}
+#testui, .testui {
+	margin:auto;
+	max-width:100%;
+}
+#wordsbox {
+	clear:both;
+	text-align:center;
+	font-size:120%
+}
+#result {
+	font-size:120%; margin-top:20px;
+}
+#result big {
+	color:#444;
+	font-size:120%;
+	text-shadow:5px 0 5px rgba(255, 0, 0, .2);
+	font-family:'Ubuntu';
+	font-weight:normal;
+}
+#result big:first-child {
+	font-size:200%;
+}
+#result big.fire {
+	color:white;
+	text-shadow:0 0 17px rgba(0, 0, 0, .2), 4px 0px 8px white, -1px -9px 15px yellow, -2px 0px 13px #ff8000, -1px -11px 20px red
+}
+#result big.fire:first-child {
+	color:white;
+	text-shadow:0 0 17px rgba(0, 0, 0, .2), 4px 0px 8px white, -1px -10px 18px yellow, -2px -1px 19px #ff8000, -1px -17px 25px red
+}
+#words-outer {
+	padding:1ex;
+	background:white;
+	border-bottom:none;
+}
+#words {
+	box-sizing:border-box;
+	background:white;
+	height:9ex;
+	overflow:hidden;
+	line-height:3ex;
+	font-family:"Droid Sans Mono", "DejaVu Sans Mono", "Bitstream Vera Mono", "Consolas", "Lucida Console", monospace;
+}
+#input {
+	display:block;
+	width:100%;
+	margin:auto;
+	text-align:center;
+	letter-spacing:2px;
+	background:#ddd !important;
+	padding:10px; 
+}
+#input:focus {
+
+	outline:none;
+}
+#words > span {
+	display:inline-block;
+	padding:0 0.2em;
+	position:relative;
+	margin-right:0.1em;
+}
+#currentword {
+	background:#b8e069;
+	border-radius:0px;
+}
+.incorrect {
+	color:#c00;
+}
+.correct {
+	color:green;
+}
+#currentword .correct {
+	color:white;
+}
+#score {
+	background:#07d;
+	margin:auto;
+	padding:10px;
+	line-height:2ex;
+}
+#border {
+	/*border:1px solid #efefef;*/
+	border-radius:0px;
+}
+#score {
+	text-align:left;
+	border-bottom:none;
+}
+#score span {
+	display: inline-block;
+	min-width: 4ex;
+	font-size: 14px;
+	padding: 8px;
+	color: #fff;
+}
+#progress, #rawcpm, #cpm, #wpm, #timer {
+	text-align:right;
+	background:white;
+	color:#333 !important;
+}
+#score span#progress {
+	min-width:9ex;
+}
+#score select, #score input {
+	font-size:80%;
+}
+#words small {
+	font-size:50%;
+	line-height:normal;
+}
+option {
+	background:no-repeat;
+	text-indent:16px;
+}
+a img {
+	border:0;
+}
+pre {
+	text-align:center;
+	font-size:80%
+}
+.special, .shift, .key {
+	font-weight:bold;
+}
+.key {
+	color:silver;
+}
+.special {
+	color:navy;
+}
+.shift {
+	color:maroon;
+}
+.hitme {
+	color:black;
+}
+
+#dummyinput {
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+	width:1;
+	height:1;
+	font-size:1%;
+}
+#blokding {
+	margin:1ex;
+}
+table.hist td {
+	text-align:center;
+}
+table.hist div.a {
+	width:4.4ex;
+}
+table.hist div.b {
+	width:4.4ex;
+	background:lightsteelblue;
+	border:1px outset navy;
+}
+h1 img {
+	vertical-align: middle;
+}
+* {
+	-webkit-font-smoothing: antialiased;
+}  /* fix bold */
+
+
+
+
+/* ******************* */
+
+.btn-restart a, .testui h3 {font: 16px 'Ubuntu' !important; text-align:center; padding:10px 0 20px 0} 
+#section {margin-bottom:30px}
+.btn-restart {margin:0 auto;background: white;display: block;padding: 0;text-align: center;border-top: 1px solid #09d;width: 100%;}	
+.btn-restart a {color: #fff;padding: 10px;display: block;width: 100px;background: #d08;margin: 10px auto 0;}
+.padding10 {padding:0 10px 10px 10px; color:#d08 }
+.logo-alt {width:228px;}
+
+.tool-container.tool-ngetik .tool-content { padding-top:80px; }
